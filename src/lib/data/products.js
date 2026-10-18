@@ -1,0 +1,191 @@
+export const categories = [
+  {
+    id: "hoodies",
+    name: "Hoodies",
+    slug: "hoodies",
+    description: "Heavyweight oversized hoodies",
+    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80",
+  },
+  {
+    id: "sweaters",
+    name: "Sweaters",
+    slug: "sweaters",
+    description: "Chunky knit sweaters",
+    image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80",
+  },
+  {
+    id: "joggers",
+    name: "Joggers",
+    slug: "joggers",
+    description: "Premium street-style joggers",
+    image: "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=800&q=80",
+  },
+];
+
+export const products = [
+  {
+    id: "1",
+    name: "Oversized Heavyweight Hoodie",
+    slug: "oversized-heavyweight-hoodie-black",
+    category: "hoodies",
+    price: 45000,
+    wholesalePrice: 32000,
+    wholesaleMinQty: 10,
+    description:
+      "Premium 450gsm cotton fleece hoodie. Oversized fit, dropped shoulders, double-lined hood. Imported quality built for the cold.",
+    images: [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80",
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Charcoal", "Cream"],
+    stock: 24,
+    featured: true,
+    badge: "Best Seller",
+  },
+  {
+    id: "2",
+    name: "Essential Crewneck Sweater",
+    slug: "essential-crewneck-sweater-grey",
+    category: "sweaters",
+    price: 38000,
+    wholesalePrice: 26000,
+    wholesaleMinQty: 10,
+    description:
+      "Soft merino blend crewneck sweater. Ribbed cuffs and hem. Clean minimalist silhouette — layers perfectly under any jacket.",
+    images: [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Grey", "Navy", "Beige"],
+    stock: 18,
+    featured: true,
+    badge: "New",
+  },
+  {
+    id: "3",
+    name: "Technical Cargo Joggers",
+    slug: "technical-cargo-joggers-black",
+    category: "joggers",
+    price: 42000,
+    wholesalePrice: 29000,
+    wholesaleMinQty: 10,
+    description:
+      "Water-resistant technical fabric joggers with zip cargo pockets. Tapered fit, elastic cuffs. Built for movement.",
+    images: [
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&q=80",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Black", "Olive", "Grey"],
+    stock: 15,
+    featured: true,
+    badge: "",
+  },
+  {
+    id: "4",
+    name: "Zip-Through Fleece Hoodie",
+    slug: "zip-through-fleece-hoodie-charcoal",
+    category: "hoodies",
+    price: 48000,
+    wholesalePrice: 34000,
+    wholesaleMinQty: 10,
+    description:
+      "Full-zip fleece hoodie with kangaroo pockets. Brushed interior for warmth. Structured fit that holds its shape.",
+    images: [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80",
+      "https://images.unsplash.com/photo-1578681994506-b8f463449011?w=800&q=80",
+    ],
+    sizes: ["M", "L", "XL", "XXL"],
+    colors: ["Charcoal", "Black", "Sand"],
+    stock: 20,
+    featured: true,
+    badge: "",
+  },
+  {
+    id: "5",
+    name: "Ribbed Knit Turtleneck",
+    slug: "ribbed-knit-turtleneck-cream",
+    category: "sweaters",
+    price: 35000,
+    wholesalePrice: 24000,
+    wholesaleMinQty: 10,
+    description:
+      "Fine ribbed knit turtleneck. Slim fit, elongated sleeves. A statement piece that works alone or layered.",
+    images: [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80",
+    ],
+    sizes: ["S", "M", "L"],
+    colors: ["Cream", "Black", "Burgundy"],
+    stock: 12,
+    featured: true,
+    badge: "Limited",
+  },
+  {
+    id: "6",
+    name: "Relaxed Fit Sweatpants",
+    slug: "relaxed-fit-sweatpants-grey",
+    category: "joggers",
+    price: 32000,
+    wholesalePrice: 22000,
+    wholesaleMinQty: 10,
+    description:
+      "Heavyweight cotton sweatpants with relaxed fit. Drawstring waist, side pockets. The everyday comfort staple.",
+    images: [
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=800&q=80",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Grey", "Black", "Navy"],
+    stock: 30,
+    featured: false,
+    badge: "",
+  },
+  {
+    id: "7",
+    name: "Chunky Cable Knit Sweater",
+    slug: "chunky-cable-knit-sweater-beige",
+    category: "sweaters",
+    price: 52000,
+    wholesalePrice: 37000,
+    wholesaleMinQty: 10,
+    description:
+      "Hand-finished cable knit sweater. Thick, warm, and undeniably premium. A winter wardrobe essential.",
+    images: [
+      "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800&q=80",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80",
+    ],
+    sizes: ["M", "L", "XL"],
+    colors: ["Beige", "Cream", "Grey"],
+    stock: 8,
+    featured: false,
+    badge: "Premium",
+  },
+  {
+    id: "8",
+    name: "Reflective Night Joggers",
+    slug: "reflective-night-joggers-black",
+    category: "joggers",
+    price: 46000,
+    wholesalePrice: 32000,
+    wholesaleMinQty: 10,
+    description:
+      "Reflective-panel joggers designed for the night. Water-repellent finish, tapered silhouette. Stand out after dark.",
+    images: [
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&q=80",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Black"],
+    stock: 10,
+    featured: false,
+    badge: "New",
+  },
+];
+
+export const getFeaturedProducts = () => products.filter((p) => p.featured);
+export const getProductBySlug = (slug) => products.find((p) => p.slug === slug);
+export const getProductsByCategory = (category) =>
+  products.filter((p) => p.category === category);
